@@ -1,7 +1,8 @@
-.header {
+.footer {
     max-width: 1184px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
-    margin: 28px auto 0;
+    margin: 92px auto 24px;
+
 }

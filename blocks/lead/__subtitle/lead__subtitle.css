@@ -5,7 +5,7 @@
     line-height: 36px;
     display: flex;
     text-align: center;
-    margin: 32px auto 0px;
-    width: 640px;
-    height: 72px;
+    margin: 32px auto 0;
+    max-width: 640px;
+
 }

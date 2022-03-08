@@ -3,6 +3,12 @@
     color: #fff;
     text-decoration: none;
     padding-left: 18px;
+
+}
+
+.header__lang-link:first-of-type {
+    padding-left: 0;
+
 }
 
 .header__lang-link:hover {

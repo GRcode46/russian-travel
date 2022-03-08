@@ -1,6 +1,11 @@
 .place {
     display: grid;
-    grid-template: 152px auto/ repeat(2, 1fr);
+    grid-template-columns: 460px 1fr;
     gap: 48px 40px;
     align-items: start;
+    margin-bottom: 80px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
 }
