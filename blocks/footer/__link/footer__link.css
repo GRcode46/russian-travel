@@ -1,3 +1,4 @@
+/* Основной код для разрешения выше 1280px */
 .footer__link {
     padding-right: 18px;
     color: #fff;
@@ -6,9 +7,29 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
+    display: block;
 }
 
 
 .footer__link:hover {
     opacity: 0.8;
+}
+
+
+/*код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .footer__link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        margin-left: 16px;
+
+    }
+
+    .footer__link:last-of-type {
+        margin-bottom: 48px;
+
+    }
 }

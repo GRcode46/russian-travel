@@ -7,3 +7,24 @@
     letter-spacing: 1.5px;
     margin: 8px auto 0;
 }
+
+/* код для разрешения до 1280px */
+/*@media screen and (max-width: 1279px) {*/
+/*    .lead__caption {*/
+/*        padding-right: 48px 48px 0;*/
+/*    }*/
+/*}*/
+
+/* код для разрешения до 1024px */
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+/* код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
+}

@@ -3,6 +3,10 @@
     color: #fff;
     text-decoration: none;
     padding-left: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+
 
 }
 
@@ -13,4 +17,15 @@
 
 .header__lang-link:hover {
     opacity: 0.8;
+}
+
+
+/* код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

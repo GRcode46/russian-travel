@@ -1,11 +1,37 @@
-.lead__subtitle{
+/* Основной код для разрешения выше 1280px */
+.lead__subtitle {
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
-    display: flex;
     text-align: center;
     margin: 32px auto 0;
     max-width: 640px;
 
 }
+
+
+/* код для разрешения до 1280px */
+/*@media screen and (max-width: 1279px) {*/
+/*    .lead__subtitle {*/
+/*        max-width: calc(100% - 384px);*/
+/*    }*/
+/*}*/
+
+/* код для разрешения до 1024px */
+/*@media screen and (max-width: 1023px) {*/
+/*    .lead__subtitle {*/
+/*        max-width: calc(100% - 128px);*/
+/*    }*/
+/*}*/
+
+
+/* код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: calc(100% - 40px);
+    }
+}
+

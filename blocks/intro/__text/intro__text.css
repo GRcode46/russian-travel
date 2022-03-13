@@ -1,9 +1,30 @@
+/* Основной код для разрешения выше 1280px */
 .intro__text {
     max-width: 690px;
     margin-top: 40px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
+}
 
+/* код для разрешения до 1280px */
+/*@media screen and (max-width: 1279px) {*/
+/*    .intro__text {*/
+/*        max-width: 100%;*/
+/*    }*/
+/*}*/
+
+/* код для разрешения до 1024px */
+/*@media screen and (max-width: 1023px) {*/
+/*    .intro__text {*/
+/*        max-width: 100%;*/
+/*    }*/
+/*}*/
+
+/* код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .intro__text {
+        max-width: 100%;
+    }
 }

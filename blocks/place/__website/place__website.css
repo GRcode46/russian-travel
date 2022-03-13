@@ -1,5 +1,31 @@
+/* Основной код для разрешения выше 1280px */
 .place__website {
     display: flex;
     flex-direction: column;
     align-self: end;
+}
+
+/* код для разрешения до 1280px */
+@media screen and (max-width: 1279px) {
+    .place__website {
+        /*grid-template-columns: 440px 1fr;*/
+    }
+}
+
+/*код для разрешения до 1024px */
+/*@media screen and (max-width: 1023px) {*/
+/*    .place__website {*/
+/*        font-style: normal;*/
+/*        font-weight: 900;*/
+/*        font-size: 42px;*/
+/*        line-height: 46px;*/
+/*    }*/
+/*}*/
+
+/*код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .place__website {
+        /*grid-template-columns: 320px;*/
+        padding: 0 16px;
+    }
 }

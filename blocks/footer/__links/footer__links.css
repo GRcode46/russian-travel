@@ -1,6 +1,17 @@
+/* Основной код для разрешения выше 1280px */
 .footer__links {
     list-style: none;
     display: flex;
     flex-direction: row;
     margin: 0;
+    padding: 0;
+}
+
+/*код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .footer__links {
+        flex-direction: column;
+
+
+    }
 }

@@ -5,3 +5,29 @@
     font-size: 54px;
     line-height: 58px;
 }
+
+/* код для разрешения до 1280px */
+/*@media screen and (max-width: 1279px) {*/
+/*    .intro__list {*/
+/*        padding: 48px 48px 0;*/
+/*    }*/
+/*}*/
+
+/* код для разрешения до 1024px */
+/*@media screen and (max-width: 1023px) {*/
+/*    .intro__list {*/
+/*        max-width: 720px;*/
+/*        padding: 48px 0 0;*/
+/*    }*/
+/*}*/
+
+/* код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+
+    }
+}

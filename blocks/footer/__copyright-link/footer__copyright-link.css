@@ -1,3 +1,4 @@
+/* Основной код для разрешения выше 1280px */
 .footer__copyright-link {
     color: #fff;
     text-decoration: underline;
@@ -11,3 +12,4 @@
     opacity: 0.8;
     text-decoration: none;
 }
+
