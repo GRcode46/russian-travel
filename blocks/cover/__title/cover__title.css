@@ -1,6 +1,7 @@
 /* Основной код для разрешения выше 1280px */
 .cover__title {
     max-width: 560px;
+    font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
@@ -11,24 +12,13 @@
     margin: 0;
 }
 
-
-/*код для разрешения до 1024px */
-/*@media screen and (max-width: 1023px) {*/
-/*    .cover__title {*/
-/*        margin: 90px 0 0;*/
-/*    }*/
-/*}*/
-
 /*код для разрешения до 768px */
 @media screen and (max-width: 767px) {
     .cover__title {
-        /*max-width: calc(100% - 32px);*/
-        /*margin: 0 0 16px;*/
+
         max-width: 288px;
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        text-align: center;
+
     }
 }

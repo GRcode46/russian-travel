@@ -3,7 +3,7 @@
     margin: 0;
     padding-bottom: 26px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 163%;
 }
@@ -12,29 +12,11 @@
     padding-bottom: 0;
 }
 
-/* код для разрешения до 1280px */
-/*@media screen and (max-width: 1279px) {*/
-/*    .place__paragraph {*/
-/*        grid-template-columns: 440px 1fr;*/
-/*    }*/
-/*}*/
 
 /*код для разрешения до 1024px */
 @media screen and (max-width: 1023px) {
-    .place__website {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 163%;
-    }
-}
-
-/*код для разрешения до 768px */
-@media screen and (max-width: 767px) {
     .place__paragraph {
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 163%;
+        /*по макету тут только размер шрифта меняется. высота строки нет*/
     }
 }

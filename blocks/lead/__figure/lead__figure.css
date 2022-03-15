@@ -1,4 +1,33 @@
+/* Основной код для разрешения выше 1280px */
 .lead__figure {
-    margin: 0;
+    margin: 0 auto;
     padding: 64px 0 0;
+    max-width: 100%;
+}
+
+
+/*код для разрешения до 1280px */
+@media screen and (max-width: 1279px) {
+    .lead__figure {
+        max-width: calc(100% - 96px);
+        padding: 56px 0 0;
+    }
+}
+
+/*код для разрешения до 1024px */
+@media screen and (max-width: 1023px) {
+    .lead__figure {
+        max-width: 100%;
+        padding: 56px 0 0;
+    }
+}
+
+/* код для разрешения до 768px */
+@media screen and (max-width: 767px) {
+    .lead__figure {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 100%;
+        padding: 40px 0 0;
+    }
 }

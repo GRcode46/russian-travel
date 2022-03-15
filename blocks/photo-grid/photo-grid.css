@@ -1,11 +1,13 @@
 /* Основной код для разрешения выше 1280px */
 .photo-grid {
+    max-width: 1184px;
     margin: 92px auto 0;
 }
 
 /* код для разрешения до 1280px */
 @media screen and (max-width: 1279px) {
     .photo-grid {
+
         margin: 92px auto 0;
     }
 }
@@ -13,6 +15,7 @@
 /*код для разрешения до 1024px */
 @media screen and (max-width: 1023px) {
     .photo-grid {
+        max-width: 928px;
         margin: 88px auto 0;
     }
 }
@@ -20,6 +23,7 @@
 /*код для разрешения до 768px */
 @media screen and (max-width: 767px) {
     .photo-grid {
+        max-width: 720px;
         margin: 64px auto 0;
     }
 }
